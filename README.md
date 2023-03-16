@@ -1,6 +1,7 @@
 Docker setup:
 
-build image: 
+Run this command from root of the project to build image: 
+
 ```console
 docker build --build-arg VERSION=0.0.1-SNAPSHOT -t ecommerce-discovery-server-image .
 ```
